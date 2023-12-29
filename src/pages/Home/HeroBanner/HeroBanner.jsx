@@ -38,7 +38,7 @@ const HeroBanner = () => {
             Explore Now
           </span>
           <div className="searchInput">
-            <input type="text" placeholder='search for movies or tv shows...' onChange={(e)=>setQuery(e.target.value)} onKeyUp={searchQueryHandler}  />
+            <input type="text" placeholder='search for movies or tv shows..' onChange={(e)=>setQuery(e.target.value)} onKeyUp={searchQueryHandler}  />
             <button onClick={()=>navigate(`/search/${query}`)}>search</button>
           </div>
         </div>
